@@ -41,6 +41,38 @@ export const lang = {
                 typography: `tipografia`,
                 buttons: `tugmalar`,
                 alerts: `ogohlantirishlar`
+            },
+
+            sidebar: {
+                products: `Mahsulotlar`,
+                beauty: `Tabiatning go'zalligi tafsilotlarda yashiringan`,
+                shop: `Xarid qilish`
+            },
+
+            category: {
+                category: `Mahsulot toifasi`,
+                sales: `Kiyim chegirmalar`,
+                season: `Yangi mavsumdagi kiyimlarni xarid qiling`,
+                jewellery: `Taqimchoqlar`,
+                special: `Maxsus dizayn birinchi navbatda`,
+                smart: `Kundalik kiyim`,
+                get: `Keng diapazonli tanlovni oling`
+            },
+
+            products: {
+                trendy: `Zamonaviy mahsulotlar`,
+                reef: `Rif taxtasi`,
+                rainbow: `Kamalak kiyim`,
+                strayhorn: `Strayhon SP`,
+                bradley: `Bredli o'rtada`,
+            },
+
+            subscribe: {
+                subscribe: `Axborot byulleteniga obuna bo'ling`,
+                now: `Xozir obuna bo'ling`,
+                view: `Bizni instagramda ko'ring`,
+                copyright: `Mualliflik huquqi © 2021, ishlab chiqilgan`,
+                themefisher: `Themefisherdan`
             }
         }
     },
@@ -87,6 +119,38 @@ export const lang = {
                 typography: `типография`,
                 buttons: `кнопки`,
                 alerts: `предупреждения`
+            },
+
+            sidebar: {
+                products: `Продукты`,
+                beauty: `Красота природы скрыта в деталях`,
+                shop: `Купить сейчас`
+            },
+
+            category: {
+                category: `Категория продуктов`,
+                sales: `Одежды в скидке`,
+                season: `Покупайте одежду нового сезона`,
+                jewellery: `Ожерелья`,
+                special: `Специальный дизайн на первом месте`,
+                smart: `повседневная одежда`,
+                get: `Получите широкий выбор`
+            },
+
+            products: {
+                trendy: `Трендовые продукты`,
+                reef: `Риф Бордспорт`,
+                rainbow: `Разноцветная одежда`,
+                strayhorn: `Страйхон СП`,
+                bradley: `Бредлий Мид`,
+            },
+
+            subscribe: {
+                subscribe: `Подписаться на новостную рассылку`,
+                now: `Подпишись сейчас`,
+                view: `смотрите нас в инстаграме`,
+                copyright: `Авторские права © 2021, Дизайн и разработка`,
+                themefisher: `Темефишер`
             }
         }
     },
@@ -133,6 +197,38 @@ export const lang = {
                 typography: `typography`,
                 buttons: `buttons`,
                 alerts: `alerts`
+            },
+
+            sidebar: {
+                products: `products`,
+                beauty: `The beauty of nature is hidden in details`,
+                shop: `Shop now`
+            },
+
+            category: {
+                category: `Product category`,
+                sales: `Clothes Sales`,
+                season: `Shop new season clothing`,
+                jewellery: `Jewellery`,
+                special: `Special Desing Comes First`,
+                smart: `Smart casuals`,
+                get: `Get Wide Range Selection`
+            },
+
+            products: {
+                trendy: `Trendy products`,
+                reef: `Reef Boardsport`,
+                rainbow: `Rainbow shoes`,
+                strayhorn: `Strayhon SP`,
+                bradley: `Bradley mid`,
+            },
+
+            subscribe: {
+                subscribe: `Subscribe to newsletter`,
+                now: `Subscribe now`,
+                view: `View us on instagram`,
+                copyright: `Copyright ©2021, Designed & Developed by`,
+                themefisher: `Themefisher`
             }
         }
     }
