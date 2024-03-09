@@ -3,7 +3,11 @@ export const lang = {
         translation: {
             header : {
                 cart: `Savat`,
-                search: "Qidirish"
+                search: "Qidirish",
+                bag: `Ayollar sumkasi`,
+                total: `Jami`,
+                card: `Savatchaga`,
+                checkout: `To'lov`
             },
 
             navbars: {
@@ -72,7 +76,9 @@ export const lang = {
                 now: `Xozir obuna bo'ling`,
                 view: `Bizni instagramda ko'ring`,
                 copyright: `Mualliflik huquqi © 2021, ishlab chiqilgan`,
-                themefisher: `Themefisherdan`
+                themefisher: `Themefisherdan`,
+                pp: `Maxfiylik siyosati`,
+                email: `Email Adressingizni kirting`
             }
         }
     },
@@ -81,7 +87,11 @@ export const lang = {
         translation: {
             header : {
                 cart: `Корзина`,
-                search: "Искать"
+                search: "Искать",
+                bag: `Сумка женщин`,
+                total: `Всего`,
+                card: `Корзина`,
+                checkout: `Оплатить`
             },
 
             navbars: {
@@ -150,7 +160,9 @@ export const lang = {
                 now: `Подпишись сейчас`,
                 view: `смотрите нас в инстаграме`,
                 copyright: `Авторские права © 2021, Дизайн и разработка`,
-                themefisher: `Темефишер`
+                themefisher: `Темефишер`,
+                pp: `Конфидицеальность`,
+                email: `Напишите Свой Эмайл`
             }
         }
     },
@@ -159,7 +171,11 @@ export const lang = {
         translation: {
             header : {
                 cart: `Cart`,
-                search: "Search"
+                search: "Search",
+                bag: `Ladies bag`,
+                total: `Total`,
+                card: `View cart`,
+                checkout: `Checkout`
             },
 
             navbars: {
@@ -228,7 +244,9 @@ export const lang = {
                 now: `Subscribe now`,
                 view: `View us on instagram`,
                 copyright: `Copyright ©2021, Designed & Developed by`,
-                themefisher: `Themefisher`
+                themefisher: `Themefisher`,
+                pp: `Privacy policy`,
+                email: `Enter Your Email Adress`
             }
         }
     }

@@ -1,0 +1,46 @@
+.footer {
+    background-color: #F7F7F7;
+    padding: 30px 50px;
+
+    &_img {
+        width: 21px;
+        height: 21px;
+        object-fit: cover;
+    }
+
+    &_top {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &_list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 33px;
+    }
+
+    &_item {
+        text-transform: uppercase;
+        color: #000;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    &_heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        color: #757575;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    &_text {
+        color: #000;
+    }
+}

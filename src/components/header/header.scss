@@ -1,0 +1,136 @@
+.header {
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+    &_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_img {
+        width: 15px;
+        height: 15px;
+        object-fit: cover;
+    }
+
+    &_call {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Roboto';
+        font-size: 13px;
+        color: #333;
+    }
+
+    &_bar {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &_toggle {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &_link {
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 35px;
+        color: #000;
+        font-family: 'Austin';
+    }
+
+    &_select {
+        outline: none;
+        border: none;
+    }
+
+    &_opt {
+        outline: none;
+        border: none;
+        white-space: none;
+    }
+
+    &_text {
+        color: #333;
+    }
+
+    &_tool {
+        width: 250px;
+        border: 0.1px solid black;
+        background-color: #fff;
+        padding: 20px   ;
+    }
+
+    &_t-item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #bdb1b1;
+    }
+
+    &_t-img {
+        width: 60px;
+        height: 88px;
+        object-fit: cover;
+    }
+
+    &_t-heading {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &_t-text {
+        color: #acaaaa;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    &_t-text2 {
+        font-weight: 600;
+        color: #333;
+    }
+
+    &_code {
+        width: 25px;
+        height: 25px;
+        background-color: #eee9e9;
+        text-align: center;
+        font-size: 15px;
+        color: #6e6c6c;
+    }
+
+    &_b-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_b-heading {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    &_b-wrapper2 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &_b-button {
+        outline: none;
+        border: 1px solid #333;
+        padding: 5px 10px;
+    }
+
+    &_input {
+        padding: 5px 10px;
+        outline: none;
+    }
+}
