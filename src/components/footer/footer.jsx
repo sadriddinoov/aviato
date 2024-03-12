@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next'
 import './footer.scss'
 import facebook from '../../assets/facebook.png'
 import instagram from '../../assets/instagram.png'
-import twitter from '../../assets/twitter.jpg'
-import pinterest from '../../assets/pinterest.jpg'
+import twitter from '../../assets/twitter.png'
+import pinterest from '../../assets/pinterest.png'
 import { Link } from 'react-router-dom'
 
 export default function Footer() {
@@ -32,9 +32,9 @@ export default function Footer() {
                     </div>
 
                     <ul className="footer_list">
-                        <Link to={'/contact'} className="footer_item">{t('navbars.contact')}</Link>
-                        <Link to={'/shop'} className="footer_item">{t('navbars.shop')}</Link>
-                        <Link to={'/pricing'} className="footer_item">{t('navbars.pricing')}</Link>  
+                        <Link to={'/contact'} className="footer_item">{t('link.contact')}</Link>
+                        <Link to={'/shop'} className="footer_item">{t('link.shop')}</Link>
+                        <Link to={'/pricing'} className="footer_item">{t('link.pricing')}</Link>  
                         <Link to={'/contact'} className="footer_item">{t('subscribe.pp')}</Link>
                     </ul>
 

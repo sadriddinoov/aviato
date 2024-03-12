@@ -1,0 +1,62 @@
+.shopcomp {
+    margin-bottom: 30px;
+
+    &_wrap {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &_img-wrap {
+        padding: 20px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    &_img2 {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+    }
+
+    &_div {
+        transition: .3s all;
+        background: rgba(175, 174, 174, 0.6);   
+        padding: 75px 50px;  
+        max-width: 400px;
+        cursor: pointer;
+
+        &:hover {
+            background: #636262
+        }
+    }
+
+    &_img {
+        width: 250px;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    &_list {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &_heading {
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    &_price {
+        font-family: "Poppins", sans-serif;
+        color: #757575;
+        font-size: 15px;
+    }
+}

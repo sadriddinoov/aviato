@@ -1,0 +1,62 @@
+.contact {
+    margin: 50px 20px;
+
+    &_container {
+        display: flex;
+        gap: 50px;
+    }
+
+    &_input {
+        width: 555px;
+        display: block;
+        background-color: transparent;
+        border: 1px solid #dedede;
+        box-shadow: none;
+        height: 45px !important;
+        color: #0c0c0c;
+        height: 38px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        border-radius: 0;
+        padding: 6px 12px;
+        margin-bottom: 30px;
+        outline: none;
+
+        &2 {
+            padding-bottom: 100px;
+            padding-top: 20px;
+        }
+    }
+
+    &_submit {
+        padding: 15px 250px;
+        background: #000;
+        color: #fff;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    &_wrap {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    &_img {
+        width: 11px;
+        height: 14px;
+        object-fit: cover;
+    }
+
+    &_tg {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    &_text {
+        color: #555;
+        font-weight: 300;
+    }
+}

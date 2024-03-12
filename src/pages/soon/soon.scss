@@ -1,0 +1,32 @@
+.soon {
+    height: 100vh;
+    overflow-y: none;
+    overflow-x: none;
+    margin: 0;
+    padding-top: 200px;
+
+    &_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_text {
+        margin: 0;
+        color: #fff;
+        font-size: 1.2em;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 30px;
+    }
+
+    &_heading {
+        font-size: 25px;
+        line-height: 40px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 30px;
+        color: #fff;
+        max-width: 400px;
+    }
+}

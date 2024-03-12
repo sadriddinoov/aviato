@@ -10,7 +10,7 @@ export const lang = {
                 checkout: `To'lov`
             },
 
-            navbars: {
+            link: {
                 home: "Uy",
                 shop: `Do'kon`,
                 pages: `Sahifalar`,
@@ -94,7 +94,7 @@ export const lang = {
                 checkout: `Оплатить`
             },
 
-            navbars: {
+            link: {
                 home: "Дом",
                 shop: `Покупать`,
                 pages: `Страницы`,
@@ -178,7 +178,7 @@ export const lang = {
                 checkout: `Checkout`
             },
 
-            navbars: {
+            link: {
                 home: "Home",
                 shop: `Shop`,
                 pages: `Pages`,

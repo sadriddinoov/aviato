@@ -1,0 +1,92 @@
+.carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+    &_div {
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        justify-content: center;
+    }
+
+    &_heading {
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    &_text {
+        white-space: normal;
+        font-size: 49px;
+        line-height: 49px;
+        font-weight: 400;
+        color: white;
+        letter-spacing: -2px;
+        font-family: "Playfair Display";
+        margin-bottom: 35px;
+        max-width: 400px;
+    }
+
+    &_btn {
+        font-size: 15px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    font-family: "Roboto Condensed";
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    outline: none;
+    box-shadow: #999999 0px 0px 0px 0px;
+    box-sizing: border-box;
+    padding: 12px 26px;
+    opacity: 1;
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    -webkit-transform-origin: 50% 50% 0px;
+    transform-origin: 50% 50% 0px;
+    border-radius: 0;
+    transition: 0.3s;
+    
+    &:hover {
+        background-color: white;
+        color: #999999;
+    }
+    }
+  }
+  .carousel__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s;
+  }
+  .carousel__btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .carousel__btn--prev {
+    left: 0;
+  }
+  .carousel__btn--next {
+    right: 0;
+  }
+  .carousel__img {
+    width: 100%;
+    height: 600px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+  }
+  .carousel__img:hover {
+    transform: scale(1.05);
+  }
+

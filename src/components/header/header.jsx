@@ -28,8 +28,8 @@ export default function Header() {
             <div className="container">
                 <div className="header_container">
                     <a  href="tel:+012912323123123" className="header_call">
-                        <img style={{width: '12px', height: '15px'}} src={call} alt="" />
-                        0129-12323-123123   
+                        <img style={{width: '17px', height: '15px'}} src={call} alt="" />
+                        0129-12323-123123     
                     </a>
 
                     <a href="/" className="header_link">
@@ -100,7 +100,7 @@ export default function Header() {
                                                     {t('header.card')}
                                                 </Link>
 
-                                                <Link to={'/checkout'} style={{backgroundColor: '#fff', color: '#000'}} className="header_b-button">
+                                                <Link to={'/checkout'} style={{backgroundColor: '#fff', color: '#000'}} className="header_b-button header_b-button2">
                                                     {t('header.checkout')}
                                                 </Link>
                                             </div>

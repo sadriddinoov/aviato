@@ -1,0 +1,40 @@
+.faq {
+    margin: 70px 0;
+
+    &_container {
+        display: flex;
+        gap: 100px;
+        text-align: left;
+    }
+
+    &_l-heading {
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #474646;
+    }
+
+    &_l-text {
+        font-family: "Poppins", sans-serif;
+        color: #757575;
+        font-size: 15px;
+        text-align-last: left;
+        width: 300px;
+    }
+
+    &_r-heading {
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #474646;
+    }
+
+    &_r-text {
+        font-family: "Poppins", sans-serif;
+        color: #757575;
+        font-size: 15px;
+        font-weight: 500px;
+    }
+}

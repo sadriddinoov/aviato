@@ -1,0 +1,77 @@
+.login {
+    margin-top: 100px;
+
+    &_container {
+        border: 1px solid #4b4a4a;
+        padding: 30px;
+        max-width: 555px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    &_link {
+        font-size: 28px;
+        color: #4b4a4a;
+        font-weight: 500px;
+        margin-bottom: 25px;
+    }
+
+    &_heading {
+        font-weight: 400;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #4b4a4a;
+        margin-bottom: 25px;
+    }
+
+    &_input {
+        display: block;
+        padding: 7px 14px;
+        height: 45px;
+        outline: none;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    &_btn {
+        background: #000;
+        color: #fff;
+        display: inline-block;
+        font-size: 11px;
+        letter-spacing: 1px;
+        padding: 14px 35px;
+        text-transform: uppercase;
+        font-weight: 200;
+        border-radius: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    &_wrap {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    &_text {
+        font-family: "Poppins", sans-serif;
+        color: #757575;
+        font-size: 15px;
+    }
+
+    &_l {
+        color: #000;
+        font-size: 15px;
+        font-family: 'Popins', sans-serif;
+    }
+}
